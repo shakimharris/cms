@@ -73,6 +73,7 @@
         </nav>
 
         <main class="py-4">
+          @auth 
           <div class="row">
            <div class="col-md-2">
               <ul class="list-group">
@@ -101,6 +102,10 @@
             </div>
            </div>
           </div>
+
+          @else
+
+          @endauth
         </main>
     </div>
 </body>
