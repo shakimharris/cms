@@ -73,7 +73,34 @@
         </nav>
 
         <main class="py-4">
+          <div class="row">
+           <div class="col-md-2">
+              <ul class="list-group">
+                <li class="list-group-item">
+       
+
+                 <a href="">Posts</a>
+
+                      </li>
+
+                      <li class="list-group-item">
+       
+
+                 <a href="">Posts</a>
+
+                      </li>
+                     </ul>
+                     </div>
+
+          <div class="col-md-8">
+              
+
+
             @yield('content')
+
+            </div>
+           </div>
+          </div>
         </main>
     </div>
 </body>
