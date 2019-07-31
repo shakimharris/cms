@@ -87,7 +87,7 @@
                       <li class="list-group-item">
        
 
-                 <a href="">Posts</a>
+                 <a href="">Categories</a>
 
                       </li>
                      </ul>
@@ -96,14 +96,16 @@
           <div class="col-md-8">
               
 
-
-            @yield('content')
+          @yield('content')
+           
 
             </div>
            </div>
           </div>
 
           @else
+
+          @yield('content')
 
           @endauth
         </main>
